@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="smoke">
+
+
+    <test name="example test one class">
+
+        
+        <classes>
+            
+            <class name="com.hk.tests.testNG.Skill002_DataProvider"/>
+            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+            
+        </classes>
+        
+    </test>
+    
+    
+    <test name="example test 2 multiple classes">
+        
+        <classes>
+            
+            <class name="com.hk.tests.testNG.Skill002_DataProvider"/>
+            <class name="com.hk.tests.testNG.Skill001_Assert"/>
+            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+
+        </classes>
+        
+    </test>
+    
+    
+    <test name="example test 3 single method">
+
+        <classes>
+
+            <class name="com.hk.tests.testNG.Skill000_TestNGIntro">
+
+                <methods>
+
+                    <include name="test1"/>
+
+                </methods>
+
+            </class>
+
+            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+
+
+        </classes>
+
+    </test>
+
+
+<!--     <test name="example test 4 package">-->
+
+<!--        <packages>-->
+
+<!--            <package name="tests.testNG"/>-->
+
+<!--        </packages>-->
+
+<!--    </test>-->
+    
+</suite>
