@@ -17,7 +17,7 @@ public class Skill003_Locators {
         // finding web element by name
         driver.findElement(By.name(""));
 
-        // finding web element by id *old fashion
+        // finding web element by id
         driver.findElement(By.id(""));
 
         // finding web element by tag name *very useless
