@@ -7,8 +7,8 @@
         
         <classes>
             
-            <class name="com.hk.tests.testNG.Skill002_DataProvider"/>
-            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill002_DataProvider"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill006_BeforeSuiteAfterSuite"/>
             
         </classes>
         
@@ -19,9 +19,9 @@
         
         <classes>
             
-            <class name="com.hk.tests.testNG.Skill002_DataProvider"/>
-            <class name="com.hk.tests.testNG.Skill001_Assert"/>
-            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill002_DataProvider"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill001_Assert"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill006_BeforeSuiteAfterSuite"/>
 
         </classes>
         
@@ -32,7 +32,7 @@
 
         <classes>
 
-            <class name="com.hk.tests.testNG.Skill000_TestNGIntro">
+            <class name="com.hk.tests1_TestNG.testNG.Skill000_TestNGIntro">
 
                 <methods>
 
@@ -42,7 +42,7 @@
 
             </class>
 
-            <class name="com.hk.tests.testNG.Skill006_BeforeSuiteAfterSuite"/>
+            <class name="com.hk.tests1_TestNG.testNG.Skill006_BeforeSuiteAfterSuite"/>
 
 
         </classes>
